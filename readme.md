@@ -1,3 +1,3 @@
-i am rahul Singh
+I am Rahul Singh.
 
-hello news portal
+hello news portal 

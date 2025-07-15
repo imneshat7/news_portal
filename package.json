@@ -1,0 +1,40 @@
+{
+  "name": "news_potal",
+  "version": "1.0.0",
+  "description": "i am rahul Singh",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm run dev --prefix client",
+    "start": "node server.js",
+    "build": "npm run build --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulSingh-0415/news_portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahulSingh-0415/news_portal/issues"
+  },
+  "homepage": "https://github.com/RahulSingh-0415/news_portal#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "formidable": "^3.5.4",
+    "jsonwebtoken": "^9.0.2",
+    "monent": "^0.0.2-security",
+    "mongoose": "^8.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10"
+  }
+}
